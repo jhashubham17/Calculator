@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.container {
+  width: 1280px;
+  height: 100vh;
+  background: rgb(211, 184, 184);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator-container {
+  padding: 20px;
+  background: rgb(113, 105, 105);
+  border-radius: 10px;
+}
+.calculator-container input {
+  border: 0;
+  outline: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+}
+.calculator-container .display {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0px;
+}
+.display input {
+  text-align: right;
+  flex: 1;
+  box-shadow: none;
+  font-size: 45px;
+}
+div .equalto {
+  width: 145px;
+}
+div .delitebtn {
+  color: #ee9595;
+}
+div .operators {
+  color: rgb(184, 225, 184);
+}
